@@ -162,7 +162,7 @@ h6 {
     font-family: "f13";
 }
 
-.bawdycaste {
+.ss {
     font-family: "ss";
 }
 
@@ -172,7 +172,7 @@ h6 {
 
 .social a {
     font-size: 2em;
-    margin: auto 4%;
+    margin: auto 6.5%;
     color: white;
     text-decoration: none;
 }
@@ -199,4 +199,7 @@ h6 {
 
 .sbitn {
     font-family: "sbitn";
+}
+.nav-item > .nav-link{
+    font-size: 2em;
 }
