@@ -82,6 +82,9 @@ body {
     border-top: .05rem solid #e5e5e5;
 }
 
+.footer > div > p:nth-child(2){
+    word-wrap: anywhere;
+}
 
 /* Customize container */
 
