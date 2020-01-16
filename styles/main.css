@@ -33,6 +33,10 @@
     font-family: TBL_1;
     src: url(/styles/TBL_1.TTF) format("truetype");
 }
+@font-face  {
+    font-family: Typewriter;
+        src:  url(/styles/OldNewspaperTypes.ttf) format("truetype");
+}
 
 body {
     background-color: black;
@@ -278,6 +282,9 @@ h6 {
 .TBL_1 {
     font-family: "TBL_1";
     z-index: 2;
+}
+.tw {
+    font-family: Typewriter;
 }
 /* for the callout box*/
 .callout {
