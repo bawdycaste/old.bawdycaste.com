@@ -278,54 +278,38 @@ h6 {
     font-family: "TBL_1";
     z-index: 2;
 }
-
-hr.style-eight {
-    overflow: visible;
-    /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+/* for the callout box*/
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 400px;
+  max-height: 250px;
 }
 
-hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
+.callout-header {
+  padding: 25px 15px;
+  background: #40E0D0;
+  font-size: 3rem;
+  color: white;
 }
 
-hr.style-five {
-    border: 0;
-    height: 0;
-    box-shadow: 0 0 10px 1px black;
+.callout-container {
+  padding: 15px;
+  background-color: #FFC0CB;
+  color: black
 }
 
-hr.style-five:after {
-    content: "\00a0";
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
 }
-.vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none;
-}
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
-}
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
- max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events:all;
+
+.closebtn:hover {
+  color: black;
 }
