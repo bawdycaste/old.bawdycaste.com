@@ -286,6 +286,7 @@ h6 {
   margin-left: 20px;
   max-width: 400px;
   max-height: 250px;
+    z-index: 200;
 }
 
 .callout-header {
